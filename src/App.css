@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 80px;
+  pointer-events: none;
+}
+ 
+.header-section{text-align: center;}
+.productList{width: 20%; display: inline-block; margin: 2.5%;}
+.productImg{width: 60%;}
+.productDetail {display: flex; align-items: center;}
+.productDetail .lftside{width: 30%; margin-left: 20%; display: inline-block;}
+.productDetail .rgtside{width: 30%; display: inline-block;}
+
+.paginationcnr{text-align: center;}
+.pagination {
+  list-style: none;
+  height: 31.5px;
+  width: 31.5px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2px;
+  cursor: pointer;
+}
+
+.pagination .active {
+  background-color: #1e50ff;
+  color: #fff;
+  border-radius: 50%;
+}
+
+.page-item {
+  list-style: none;
+  padding: 1px 16px;
+  height: 40px;
+  width:40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2px;
+}
+
+.cartColumn{width: 25%; display: inline-block;}
+.cartImg{width: 50px;}
+.cartRow{display: flex; align-items: center;}
+.header-section{padding: 20px 0;}
+.header-section a{margin: 0 1rem;}
